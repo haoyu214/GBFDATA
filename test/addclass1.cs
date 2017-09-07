@@ -8,5 +8,6 @@ namespace test
 {
     class addclass1
     {
+       string myname="lxf";
     }
 }
