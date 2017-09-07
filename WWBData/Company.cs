@@ -10,7 +10,7 @@ namespace WWBData
     {
         //再提交一次
         //我来改一次ok 
-        public string companyId { get; set; }
+        public string companyId33 { get; set; }
         public string companyName { get; set; }
         public string status { get; set; }
         public string areaCode { get; set; }
