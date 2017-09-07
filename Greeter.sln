@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Greeter", "Greeter\Greeter.csproj", "{724DFC8C-4B57-4C3F-811C-0463BE2A2829}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreeterServer", "GreeterServer\GreeterServer.csproj", "{A7706C84-92D2-4B7A-B779-76B64D2950EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreeterClient", "GreeterClient\GreeterClient.csproj", "{ACCF4597-3748-4117-8633-1CB767F8CCC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WWBData", "WWBData\WWBData.csproj", "{398836FD-F22B-4456-97A4-4F1289453988}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZDZR.Core", "ZDZR.Core\ZDZR.Core.csproj", "{0C1F7471-BE90-4AA0-B8A2-0B20BE901F9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LDLR.Core", "LDLR.Core\LDLR.Core.csproj", "{4F2F72BC-E8E8-41E5-B397-B640802E86CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NebuinfoClient", "NebuinfoClient\NebuinfoClient.csproj", "{F003EDCA-8AC8-41B9-8E70-04EE66CBE728}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication1", "ConsoleApplication1\ConsoleApplication1.csproj", "{E9FDA77F-A9CD-4B1B-9806-80E7ED9D3705}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test", "test\test.csproj", "{E892F0AC-AA55-4893-A200-40E2F3379FE1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{724DFC8C-4B57-4C3F-811C-0463BE2A2829}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{724DFC8C-4B57-4C3F-811C-0463BE2A2829}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{724DFC8C-4B57-4C3F-811C-0463BE2A2829}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{724DFC8C-4B57-4C3F-811C-0463BE2A2829}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7706C84-92D2-4B7A-B779-76B64D2950EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7706C84-92D2-4B7A-B779-76B64D2950EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7706C84-92D2-4B7A-B779-76B64D2950EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7706C84-92D2-4B7A-B779-76B64D2950EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACCF4597-3748-4117-8633-1CB767F8CCC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACCF4597-3748-4117-8633-1CB767F8CCC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACCF4597-3748-4117-8633-1CB767F8CCC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACCF4597-3748-4117-8633-1CB767F8CCC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{398836FD-F22B-4456-97A4-4F1289453988}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{398836FD-F22B-4456-97A4-4F1289453988}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{398836FD-F22B-4456-97A4-4F1289453988}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{398836FD-F22B-4456-97A4-4F1289453988}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C1F7471-BE90-4AA0-B8A2-0B20BE901F9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C1F7471-BE90-4AA0-B8A2-0B20BE901F9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C1F7471-BE90-4AA0-B8A2-0B20BE901F9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C1F7471-BE90-4AA0-B8A2-0B20BE901F9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F2F72BC-E8E8-41E5-B397-B640802E86CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F2F72BC-E8E8-41E5-B397-B640802E86CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F2F72BC-E8E8-41E5-B397-B640802E86CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F2F72BC-E8E8-41E5-B397-B640802E86CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F003EDCA-8AC8-41B9-8E70-04EE66CBE728}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F003EDCA-8AC8-41B9-8E70-04EE66CBE728}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F003EDCA-8AC8-41B9-8E70-04EE66CBE728}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F003EDCA-8AC8-41B9-8E70-04EE66CBE728}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9FDA77F-A9CD-4B1B-9806-80E7ED9D3705}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9FDA77F-A9CD-4B1B-9806-80E7ED9D3705}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9FDA77F-A9CD-4B1B-9806-80E7ED9D3705}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9FDA77F-A9CD-4B1B-9806-80E7ED9D3705}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E892F0AC-AA55-4893-A200-40E2F3379FE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E892F0AC-AA55-4893-A200-40E2F3379FE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E892F0AC-AA55-4893-A200-40E2F3379FE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E892F0AC-AA55-4893-A200-40E2F3379FE1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Greeter\Greeter.csproj
+	EndGlobalSection
+EndGlobal

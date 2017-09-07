@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ConfigModel" msprop:Generator_TableClassName="ConfigModelDataTable" msprop:Generator_TableVarName="tableConfigModel" msprop:Generator_TablePropName="ConfigModel" msprop:Generator_RowDeletingName="ConfigModelRowDeleting" msprop:Generator_RowChangingName="ConfigModelRowChanging" msprop:Generator_RowEvHandlerName="ConfigModelRowChangeEventHandler" msprop:Generator_RowDeletedName="ConfigModelRowDeleted" msprop:Generator_UserTableName="ConfigModel" msprop:Generator_RowChangedName="ConfigModelRowChanged" msprop:Generator_RowEvArgName="ConfigModelRowChangeEvent" msprop:Generator_RowClassName="ConfigModelRow">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="PropertyChanged" msprop:Generator_ColumnVarNameInTable="columnPropertyChanged" msprop:Generator_ColumnPropNameInRow="PropertyChanged" msprop:Generator_ColumnPropNameInTable="PropertyChangedColumn" msprop:Generator_UserColumnName="PropertyChanged" type="xs:string" minOccurs="0" />
+        <xs:element name="Caching" msprop:Generator_TableClassName="CachingDataTable" msprop:Generator_TableVarName="tableCaching" msprop:Generator_TablePropName="Caching" msprop:Generator_RowDeletingName="CachingRowDeleting" msprop:Generator_RowChangingName="CachingRowChanging" msprop:Generator_RowEvHandlerName="CachingRowChangeEventHandler" msprop:Generator_RowDeletedName="CachingRowDeleted" msprop:Generator_UserTableName="Caching" msprop:Generator_RowChangedName="CachingRowChanged" msprop:Generator_RowEvArgName="CachingRowChangeEvent" msprop:Generator_RowClassName="CachingRow" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Provider" msprop:Generator_ColumnVarNameInTable="columnProvider" msprop:Generator_ColumnPropNameInRow="Provider" msprop:Generator_ColumnPropNameInTable="ProviderColumn" msprop:Generator_UserColumnName="Provider" type="xs:string" minOccurs="0" />
+              <xs:element name="ExpireMinutes" msprop:Generator_ColumnVarNameInTable="columnExpireMinutes" msprop:Generator_ColumnPropNameInRow="ExpireMinutes" msprop:Generator_ColumnPropNameInTable="ExpireMinutesColumn" msprop:Generator_UserColumnName="ExpireMinutes" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+            <xs:attribute name="ConfigModel_Id" msprop:Generator_ColumnVarNameInTable="columnConfigModel_Id" msprop:Generator_ColumnPropNameInRow="ConfigModel_Id" msprop:Generator_ColumnPropNameInTable="ConfigModel_IdColumn" msprop:Generator_UserColumnName="ConfigModel_Id" type="xs:int" use="prohibited" />
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Queue" msprop:Generator_TableClassName="QueueDataTable" msprop:Generator_TableVarName="tableQueue" msprop:Generator_TablePropName="Queue" msprop:Generator_RowDeletingName="QueueRowDeleting" msprop:Generator_RowChangingName="QueueRowChanging" msprop:Generator_RowEvHandlerName="QueueRowChangeEventHandler" msprop:Generator_RowDeletedName="QueueRowDeleted" msprop:Generator_UserTableName="Queue" msprop:Generator_RowChangedName="QueueRowChanged" msprop:Generator_RowEvArgName="QueueRowChangeEvent" msprop:Generator_RowClassName="QueueRow" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Type" msprop:Generator_ColumnVarNameInTable="columnType" msprop:Generator_ColumnPropNameInRow="Type" msprop:Generator_ColumnPropNameInTable="TypeColumn" msprop:Generator_UserColumnName="Type" type="xs:string" minOccurs="0" />
+              <xs:element name="FilePath" msprop:Generator_ColumnVarNameInTable="columnFilePath" msprop:Generator_ColumnPropNameInRow="FilePath" msprop:Generator_ColumnPropNameInTable="FilePathColumn" msprop:Generator_UserColumnName="FilePath" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+            <xs:attribute name="ConfigModel_Id" msprop:Generator_ColumnVarNameInTable="columnConfigModel_Id" msprop:Generator_ColumnPropNameInRow="ConfigModel_Id" msprop:Generator_ColumnPropNameInTable="ConfigModel_IdColumn" msprop:Generator_UserColumnName="ConfigModel_Id" type="xs:int" use="prohibited" />
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Logger" msprop:Generator_TableClassName="LoggerDataTable" msprop:Generator_TableVarName="tableLogger" msprop:Generator_TablePropName="Logger" msprop:Generator_RowDeletingName="LoggerRowDeleting" msprop:Generator_RowChangingName="LoggerRowChanging" msprop:Generator_RowEvHandlerName="LoggerRowChangeEventHandler" msprop:Generator_RowDeletedName="LoggerRowDeleted" msprop:Generator_UserTableName="Logger" msprop:Generator_RowChangedName="LoggerRowChanged" msprop:Generator_RowEvArgName="LoggerRowChangeEvent" msprop:Generator_RowClassName="LoggerRow" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Type" msprop:Generator_ColumnVarNameInTable="columnType" msprop:Generator_ColumnPropNameInRow="Type" msprop:Generator_ColumnPropNameInTable="TypeColumn" msprop:Generator_UserColumnName="Type" type="xs:string" minOccurs="0" />
+              <xs:element name="Level" msprop:Generator_ColumnVarNameInTable="columnLevel" msprop:Generator_ColumnPropNameInRow="Level" msprop:Generator_ColumnPropNameInTable="LevelColumn" msprop:Generator_UserColumnName="Level" type="xs:string" minOccurs="0" />
+              <xs:element name="ProjectName" msprop:Generator_ColumnVarNameInTable="columnProjectName" msprop:Generator_ColumnPropNameInRow="ProjectName" msprop:Generator_ColumnPropNameInTable="ProjectNameColumn" msprop:Generator_UserColumnName="ProjectName" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+            <xs:attribute name="ConfigModel_Id" msprop:Generator_ColumnVarNameInTable="columnConfigModel_Id" msprop:Generator_ColumnPropNameInRow="ConfigModel_Id" msprop:Generator_ColumnPropNameInTable="ConfigModel_IdColumn" msprop:Generator_UserColumnName="ConfigModel_Id" type="xs:int" use="prohibited" />
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Pub_Sub" msprop:Generator_TableClassName="Pub_SubDataTable" msprop:Generator_TableVarName="tablePub_Sub" msprop:Generator_TablePropName="Pub_Sub" msprop:Generator_RowDeletingName="Pub_SubRowDeleting" msprop:Generator_RowChangingName="Pub_SubRowChanging" msprop:Generator_RowEvHandlerName="Pub_SubRowChangeEventHandler" msprop:Generator_RowDeletedName="Pub_SubRowDeleted" msprop:Generator_UserTableName="Pub_Sub" msprop:Generator_RowChangedName="Pub_SubRowChanged" msprop:Generator_RowEvArgName="Pub_SubRowChangeEvent" msprop:Generator_RowClassName="Pub_SubRow" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Interval" msprop:Generator_ColumnVarNameInTable="columnInterval" msprop:Generator_ColumnPropNameInRow="Interval" msprop:Generator_ColumnPropNameInTable="IntervalColumn" msprop:Generator_UserColumnName="Interval" type="xs:string" minOccurs="0" />
+              <xs:element name="RepeatNum" msprop:Generator_ColumnVarNameInTable="columnRepeatNum" msprop:Generator_ColumnPropNameInRow="RepeatNum" msprop:Generator_ColumnPropNameInTable="RepeatNumColumn" msprop:Generator_UserColumnName="RepeatNum" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+            <xs:attribute name="ConfigModel_Id" msprop:Generator_ColumnVarNameInTable="columnConfigModel_Id" msprop:Generator_ColumnPropNameInRow="ConfigModel_Id" msprop:Generator_ColumnPropNameInTable="ConfigModel_IdColumn" msprop:Generator_UserColumnName="ConfigModel_Id" type="xs:int" use="prohibited" />
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="MongoDB" msprop:Generator_TableClassName="MongoDBDataTable" msprop:Generator_TableVarName="tableMongoDB" msprop:Generator_TablePropName="MongoDB" msprop:Generator_RowDeletingName="MongoDBRowDeleting" msprop:Generator_RowChangingName="MongoDBRowChanging" msprop:Generator_RowEvHandlerName="MongoDBRowChangeEventHandler" msprop:Generator_RowDeletedName="MongoDBRowDeleted" msprop:Generator_UserTableName="MongoDB" msprop:Generator_RowChangedName="MongoDBRowChanged" msprop:Generator_RowEvArgName="MongoDBRowChangeEvent" msprop:Generator_RowClassName="MongoDBRow" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Host" msprop:Generator_ColumnVarNameInTable="columnHost" msprop:Generator_ColumnPropNameInRow="Host" msprop:Generator_ColumnPropNameInTable="HostColumn" msprop:Generator_UserColumnName="Host" type="xs:string" minOccurs="0" />
+              <xs:element name="DbName" msprop:Generator_ColumnVarNameInTable="columnDbName" msprop:Generator_ColumnPropNameInRow="DbName" msprop:Generator_ColumnPropNameInTable="DbNameColumn" msprop:Generator_UserColumnName="DbName" type="xs:string" minOccurs="0" />
+              <xs:element name="UserName" msprop:Generator_ColumnVarNameInTable="columnUserName" msprop:Generator_ColumnPropNameInRow="UserName" msprop:Generator_ColumnPropNameInTable="UserNameColumn" msprop:Generator_UserColumnName="UserName" type="xs:string" minOccurs="0" />
+              <xs:element name="Password" msprop:Generator_ColumnVarNameInTable="columnPassword" msprop:Generator_ColumnPropNameInRow="Password" msprop:Generator_ColumnPropNameInTable="PasswordColumn" msprop:Generator_UserColumnName="Password" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+            <xs:attribute name="ConfigModel_Id" msprop:Generator_ColumnVarNameInTable="columnConfigModel_Id" msprop:Generator_ColumnPropNameInRow="ConfigModel_Id" msprop:Generator_ColumnPropNameInTable="ConfigModel_IdColumn" msprop:Generator_UserColumnName="ConfigModel_Id" type="xs:int" use="prohibited" />
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Redis" msprop:Generator_TableClassName="RedisDataTable" msprop:Generator_TableVarName="tableRedis" msprop:Generator_TablePropName="Redis" msprop:Generator_RowDeletingName="RedisRowDeleting" msprop:Generator_RowChangingName="RedisRowChanging" msprop:Generator_RowEvHandlerName="RedisRowChangeEventHandler" msprop:Generator_RowDeletedName="RedisRowDeleted" msprop:Generator_UserTableName="Redis" msprop:Generator_RowChangedName="RedisRowChanged" msprop:Generator_RowEvArgName="RedisRowChangeEvent" msprop:Generator_RowClassName="RedisRow" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Host" msprop:Generator_ColumnVarNameInTable="columnHost" msprop:Generator_ColumnPropNameInRow="Host" msprop:Generator_ColumnPropNameInTable="HostColumn" msprop:Generator_UserColumnName="Host" type="xs:string" minOccurs="0" />
+              <xs:element name="Proxy" msprop:Generator_ColumnVarNameInTable="columnProxy" msprop:Generator_ColumnPropNameInRow="Proxy" msprop:Generator_ColumnPropNameInTable="ProxyColumn" msprop:Generator_UserColumnName="Proxy" type="xs:integer" minOccurs="0" />
+            </xs:sequence>
+            <xs:attribute name="ConfigModel_Id" msprop:Generator_ColumnVarNameInTable="columnConfigModel_Id" msprop:Generator_ColumnPropNameInRow="ConfigModel_Id" msprop:Generator_ColumnPropNameInTable="ConfigModel_IdColumn" msprop:Generator_UserColumnName="ConfigModel_Id" type="xs:int" use="prohibited" />
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Messaging" msprop:Generator_TableClassName="MessagingDataTable" msprop:Generator_TableVarName="tableMessaging" msprop:Generator_TablePropName="Messaging" msprop:Generator_RowDeletingName="MessagingRowDeleting" msprop:Generator_RowChangingName="MessagingRowChanging" msprop:Generator_RowEvHandlerName="MessagingRowChangeEventHandler" msprop:Generator_RowDeletedName="MessagingRowDeleted" msprop:Generator_UserTableName="Messaging" msprop:Generator_RowChangedName="MessagingRowChanged" msprop:Generator_RowEvArgName="MessagingRowChangeEvent" msprop:Generator_RowClassName="MessagingRow" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Email_UserName" msprop:Generator_ColumnVarNameInTable="columnEmail_UserName" msprop:Generator_ColumnPropNameInRow="Email_UserName" msprop:Generator_ColumnPropNameInTable="Email_UserNameColumn" msprop:Generator_UserColumnName="Email_UserName" type="xs:string" minOccurs="0" />
+              <xs:element name="Email_Password" msprop:Generator_ColumnVarNameInTable="columnEmail_Password" msprop:Generator_ColumnPropNameInRow="Email_Password" msprop:Generator_ColumnPropNameInTable="Email_PasswordColumn" msprop:Generator_UserColumnName="Email_Password" type="xs:string" minOccurs="0" />
+              <xs:element name="Email_Host" msprop:Generator_ColumnVarNameInTable="columnEmail_Host" msprop:Generator_ColumnPropNameInRow="Email_Host" msprop:Generator_ColumnPropNameInTable="Email_HostColumn" msprop:Generator_UserColumnName="Email_Host" type="xs:string" minOccurs="0" />
+              <xs:element name="Email_Port" msprop:Generator_ColumnVarNameInTable="columnEmail_Port" msprop:Generator_ColumnPropNameInRow="Email_Port" msprop:Generator_ColumnPropNameInTable="Email_PortColumn" msprop:Generator_UserColumnName="Email_Port" type="xs:string" minOccurs="0" />
+              <xs:element name="Email_Address" msprop:Generator_ColumnVarNameInTable="columnEmail_Address" msprop:Generator_ColumnPropNameInRow="Email_Address" msprop:Generator_ColumnPropNameInTable="Email_AddressColumn" msprop:Generator_UserColumnName="Email_Address" type="xs:string" minOccurs="0" />
+              <xs:element name="Email_DisplayName" msprop:Generator_ColumnVarNameInTable="columnEmail_DisplayName" msprop:Generator_ColumnPropNameInRow="Email_DisplayName" msprop:Generator_ColumnPropNameInTable="Email_DisplayNameColumn" msprop:Generator_UserColumnName="Email_DisplayName" type="xs:string" minOccurs="0" />
+              <xs:element name="RtxApi" msprop:Generator_ColumnVarNameInTable="columnRtxApi" msprop:Generator_ColumnPropNameInRow="RtxApi" msprop:Generator_ColumnPropNameInTable="RtxApiColumn" msprop:Generator_UserColumnName="RtxApi" type="xs:string" minOccurs="0" />
+              <xs:element name="SMSGateway" msprop:Generator_ColumnVarNameInTable="columnSMSGateway" msprop:Generator_ColumnPropNameInRow="SMSGateway" msprop:Generator_ColumnPropNameInTable="SMSGatewayColumn" msprop:Generator_UserColumnName="SMSGateway" type="xs:string" minOccurs="0" />
+              <xs:element name="SMSSignType" msprop:Generator_ColumnVarNameInTable="columnSMSSignType" msprop:Generator_ColumnPropNameInRow="SMSSignType" msprop:Generator_ColumnPropNameInTable="SMSSignTypeColumn" msprop:Generator_UserColumnName="SMSSignType" type="xs:string" minOccurs="0" />
+              <xs:element name="SMSCharset" msprop:Generator_ColumnVarNameInTable="columnSMSCharset" msprop:Generator_ColumnPropNameInRow="SMSCharset" msprop:Generator_ColumnPropNameInTable="SMSCharsetColumn" msprop:Generator_UserColumnName="SMSCharset" type="xs:string" minOccurs="0" />
+              <xs:element name="SMSKey" msprop:Generator_ColumnVarNameInTable="columnSMSKey" msprop:Generator_ColumnPropNameInRow="SMSKey" msprop:Generator_ColumnPropNameInTable="SMSKeyColumn" msprop:Generator_UserColumnName="SMSKey" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+            <xs:attribute name="ConfigModel_Id" msprop:Generator_ColumnVarNameInTable="columnConfigModel_Id" msprop:Generator_ColumnPropNameInRow="ConfigModel_Id" msprop:Generator_ColumnPropNameInTable="ConfigModel_IdColumn" msprop:Generator_UserColumnName="ConfigModel_Id" type="xs:int" use="prohibited" />
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DomainEvent" msprop:Generator_TableClassName="DomainEventDataTable" msprop:Generator_TableVarName="tableDomainEvent" msprop:Generator_TablePropName="DomainEvent" msprop:Generator_RowDeletingName="DomainEventRowDeleting" msprop:Generator_RowChangingName="DomainEventRowChanging" msprop:Generator_RowEvHandlerName="DomainEventRowChangeEventHandler" msprop:Generator_RowDeletedName="DomainEventRowDeleted" msprop:Generator_UserTableName="DomainEvent" msprop:Generator_RowChangedName="DomainEventRowChanged" msprop:Generator_RowEvArgName="DomainEventRowChangeEvent" msprop:Generator_RowClassName="DomainEventRow" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Type" msprop:Generator_ColumnVarNameInTable="columnType" msprop:Generator_ColumnPropNameInRow="Type" msprop:Generator_ColumnPropNameInTable="TypeColumn" msprop:Generator_UserColumnName="Type" type="xs:string" minOccurs="0" />
+              <xs:element name="RedisKey" msprop:Generator_ColumnVarNameInTable="columnRedisKey" msprop:Generator_ColumnPropNameInRow="RedisKey" msprop:Generator_ColumnPropNameInTable="RedisKeyColumn" msprop:Generator_UserColumnName="RedisKey" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+            <xs:attribute name="ConfigModel_Id" msprop:Generator_ColumnVarNameInTable="columnConfigModel_Id" msprop:Generator_ColumnPropNameInRow="ConfigModel_Id" msprop:Generator_ColumnPropNameInTable="ConfigModel_IdColumn" msprop:Generator_UserColumnName="ConfigModel_Id" type="xs:int" use="prohibited" />
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Socket" msprop:Generator_TableClassName="SocketDataTable" msprop:Generator_TableVarName="tableSocket" msprop:Generator_TablePropName="Socket" msprop:Generator_RowDeletingName="SocketRowDeleting" msprop:Generator_RowChangingName="SocketRowChanging" msprop:Generator_RowEvHandlerName="SocketRowChangeEventHandler" msprop:Generator_RowDeletedName="SocketRowDeleted" msprop:Generator_UserTableName="Socket" msprop:Generator_RowChangedName="SocketRowChanged" msprop:Generator_RowEvArgName="SocketRowChangeEvent" msprop:Generator_RowClassName="SocketRow" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ServerHost" msprop:Generator_ColumnVarNameInTable="columnServerHost" msprop:Generator_ColumnPropNameInRow="ServerHost" msprop:Generator_ColumnPropNameInTable="ServerHostColumn" msprop:Generator_UserColumnName="ServerHost" type="xs:string" minOccurs="0" />
+              <xs:element name="DataPort" msprop:Generator_ColumnVarNameInTable="columnDataPort" msprop:Generator_ColumnPropNameInRow="DataPort" msprop:Generator_ColumnPropNameInTable="DataPortColumn" msprop:Generator_UserColumnName="DataPort" type="xs:string" minOccurs="0" />
+              <xs:element name="CommandPort" msprop:Generator_ColumnVarNameInTable="columnCommandPort" msprop:Generator_ColumnPropNameInRow="CommandPort" msprop:Generator_ColumnPropNameInTable="CommandPortColumn" msprop:Generator_UserColumnName="CommandPort" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+            <xs:attribute name="ConfigModel_Id" msprop:Generator_ColumnVarNameInTable="columnConfigModel_Id" msprop:Generator_ColumnPropNameInRow="ConfigModel_Id" msprop:Generator_ColumnPropNameInTable="ConfigModel_IdColumn" msprop:Generator_UserColumnName="ConfigModel_Id" type="xs:int" use="prohibited" />
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Cat" msprop:Generator_TableClassName="CatDataTable" msprop:Generator_TableVarName="tableCat" msprop:Generator_TablePropName="Cat" msprop:Generator_RowDeletingName="CatRowDeleting" msprop:Generator_RowChangingName="CatRowChanging" msprop:Generator_RowEvHandlerName="CatRowChangeEventHandler" msprop:Generator_RowDeletedName="CatRowDeleted" msprop:Generator_UserTableName="Cat" msprop:Generator_RowChangedName="CatRowChanged" msprop:Generator_RowEvArgName="CatRowChangeEvent" msprop:Generator_RowClassName="CatRow" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CatDomain" msprop:Generator_TableClassName="CatDomainDataTable" msprop:Generator_TableVarName="tableCatDomain" msprop:Generator_TablePropName="CatDomain" msprop:Generator_RowDeletingName="CatDomainRowDeleting" msprop:Generator_RowChangingName="CatDomainRowChanging" msprop:Generator_RowEvHandlerName="CatDomainRowChangeEventHandler" msprop:Generator_RowDeletedName="CatDomainRowDeleted" msprop:Generator_UserTableName="CatDomain" msprop:Generator_RowChangedName="CatDomainRowChanged" msprop:Generator_RowEvArgName="CatDomainRowChangeEvent" msprop:Generator_RowClassName="CatDomainRow" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Id" msprop:Generator_ColumnVarNameInTable="columnId" msprop:Generator_ColumnPropNameInRow="Id" msprop:Generator_ColumnPropNameInTable="IdColumn" msprop:Generator_UserColumnName="Id" type="xs:string" minOccurs="0" />
+                    <xs:element name="Enabled" msprop:Generator_ColumnVarNameInTable="columnEnabled" msprop:Generator_ColumnPropNameInRow="Enabled" msprop:Generator_ColumnPropNameInTable="EnabledColumn" msprop:Generator_UserColumnName="Enabled" type="xs:string" minOccurs="0" />
+                  </xs:sequence>
+                  <xs:attribute name="Cat_Id" msprop:Generator_ColumnVarNameInTable="columnCat_Id" msprop:Generator_ColumnPropNameInRow="Cat_Id" msprop:Generator_ColumnPropNameInTable="Cat_IdColumn" msprop:Generator_UserColumnName="Cat_Id" type="xs:int" use="prohibited" />
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="CatServers" msprop:Generator_TableClassName="CatServersDataTable" msprop:Generator_TableVarName="tableCatServers" msprop:Generator_TablePropName="CatServers" msprop:Generator_RowDeletingName="CatServersRowDeleting" msprop:Generator_RowChangingName="CatServersRowChanging" msprop:Generator_RowEvHandlerName="CatServersRowChangeEventHandler" msprop:Generator_RowDeletedName="CatServersRowDeleted" msprop:Generator_UserTableName="CatServers" msprop:Generator_RowChangedName="CatServersRowChanged" msprop:Generator_RowEvArgName="CatServersRowChangeEvent" msprop:Generator_RowClassName="CatServersRow" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="CatServer" msprop:Generator_TableClassName="CatServerDataTable" msprop:Generator_TableVarName="tableCatServer" msprop:Generator_TablePropName="CatServer" msprop:Generator_RowDeletingName="CatServerRowDeleting" msprop:Generator_RowChangingName="CatServerRowChanging" msprop:Generator_RowEvHandlerName="CatServerRowChangeEventHandler" msprop:Generator_RowDeletedName="CatServerRowDeleted" msprop:Generator_UserTableName="CatServer" msprop:Generator_RowChangedName="CatServerRowChanged" msprop:Generator_RowEvArgName="CatServerRowChangeEvent" msprop:Generator_RowClassName="CatServerRow" minOccurs="0" maxOccurs="unbounded">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="Ip" msprop:Generator_ColumnVarNameInTable="columnIp" msprop:Generator_ColumnPropNameInRow="Ip" msprop:Generator_ColumnPropNameInTable="IpColumn" msprop:Generator_UserColumnName="Ip" type="xs:string" minOccurs="0" />
+                          <xs:element name="Port" msprop:Generator_ColumnVarNameInTable="columnPort" msprop:Generator_ColumnPropNameInRow="Port" msprop:Generator_ColumnPropNameInTable="PortColumn" msprop:Generator_UserColumnName="Port" type="xs:string" minOccurs="0" />
+                          <xs:element name="WebPort" msprop:Generator_ColumnVarNameInTable="columnWebPort" msprop:Generator_ColumnPropNameInRow="WebPort" msprop:Generator_ColumnPropNameInTable="WebPortColumn" msprop:Generator_UserColumnName="WebPort" type="xs:string" minOccurs="0" />
+                          <xs:element name="Enabled" msprop:Generator_ColumnVarNameInTable="columnEnabled" msprop:Generator_ColumnPropNameInRow="Enabled" msprop:Generator_ColumnPropNameInTable="EnabledColumn" msprop:Generator_UserColumnName="Enabled" type="xs:string" minOccurs="0" />
+                        </xs:sequence>
+                        <xs:attribute name="CatServers_Id" msprop:Generator_ColumnVarNameInTable="columnCatServers_Id" msprop:Generator_ColumnPropNameInRow="CatServers_Id" msprop:Generator_ColumnPropNameInTable="CatServers_IdColumn" msprop:Generator_UserColumnName="CatServers_Id" type="xs:int" use="prohibited" />
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute name="CatServers_Id" msdata:AutoIncrement="true" msprop:Generator_ColumnVarNameInTable="columnCatServers_Id" msprop:Generator_ColumnPropNameInRow="CatServers_Id" msprop:Generator_ColumnPropNameInTable="CatServers_IdColumn" msprop:Generator_UserColumnName="CatServers_Id" type="xs:int" msdata:AllowDBNull="false" use="prohibited" />
+                  <xs:attribute name="Cat_Id" msprop:Generator_ColumnVarNameInTable="columnCat_Id" msprop:Generator_ColumnPropNameInRow="Cat_Id" msprop:Generator_ColumnPropNameInTable="Cat_IdColumn" msprop:Generator_UserColumnName="Cat_Id" type="xs:int" use="prohibited" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="Cat_Id" msdata:AutoIncrement="true" msprop:Generator_ColumnVarNameInTable="columnCat_Id" msprop:Generator_ColumnPropNameInRow="Cat_Id" msprop:Generator_ColumnPropNameInTable="Cat_IdColumn" msprop:Generator_UserColumnName="Cat_Id" type="xs:int" msdata:AllowDBNull="false" use="prohibited" />
+            <xs:attribute name="ConfigModel_Id" msprop:Generator_ColumnVarNameInTable="columnConfigModel_Id" msprop:Generator_ColumnPropNameInRow="ConfigModel_Id" msprop:Generator_ColumnPropNameInTable="ConfigModel_IdColumn" msprop:Generator_UserColumnName="ConfigModel_Id" type="xs:int" use="prohibited" />
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Versions" msprop:Generator_TableClassName="VersionsDataTable" msprop:Generator_TableVarName="tableVersions" msprop:Generator_TablePropName="Versions" msprop:Generator_RowDeletingName="VersionsRowDeleting" msprop:Generator_RowChangingName="VersionsRowChanging" msprop:Generator_RowEvHandlerName="VersionsRowChangeEventHandler" msprop:Generator_RowDeletedName="VersionsRowDeleted" msprop:Generator_UserTableName="Versions" msprop:Generator_RowChangedName="VersionsRowChanged" msprop:Generator_RowEvArgName="VersionsRowChangeEvent" msprop:Generator_RowClassName="VersionsRow" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Version" msprop:Generator_TableClassName="VersionDataTable" msprop:Generator_TableVarName="tableVersion" msprop:Generator_TablePropName="Version" msprop:Generator_RowDeletingName="VersionRowDeleting" msprop:Generator_RowChangingName="VersionRowChanging" msprop:Generator_RowEvHandlerName="VersionRowChangeEventHandler" msprop:Generator_RowDeletedName="VersionRowDeleted" msprop:Generator_UserTableName="Version" msprop:Generator_RowChangedName="VersionRowChanged" msprop:Generator_RowEvArgName="VersionRowChangeEvent" msprop:Generator_RowClassName="VersionRow" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Code" msprop:Generator_ColumnVarNameInTable="columnCode" msprop:Generator_ColumnPropNameInRow="Code" msprop:Generator_ColumnPropNameInTable="CodeColumn" msprop:Generator_UserColumnName="Code" type="xs:string" minOccurs="0" />
+                    <xs:element name="Info" msprop:Generator_ColumnVarNameInTable="columnInfo" msprop:Generator_ColumnPropNameInRow="Info" msprop:Generator_ColumnPropNameInTable="InfoColumn" msprop:Generator_UserColumnName="Info" type="xs:string" minOccurs="0" />
+                  </xs:sequence>
+                  <xs:attribute name="Versions_Id" msprop:Generator_ColumnVarNameInTable="columnVersions_Id" msprop:Generator_ColumnPropNameInRow="Versions_Id" msprop:Generator_ColumnPropNameInTable="Versions_IdColumn" msprop:Generator_UserColumnName="Versions_Id" type="xs:int" use="prohibited" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="Versions_Id" msdata:AutoIncrement="true" msprop:Generator_ColumnVarNameInTable="columnVersions_Id" msprop:Generator_ColumnPropNameInRow="Versions_Id" msprop:Generator_ColumnPropNameInTable="Versions_IdColumn" msprop:Generator_UserColumnName="Versions_Id" type="xs:int" msdata:AllowDBNull="false" use="prohibited" />
+            <xs:attribute name="ConfigModel_Id" msprop:Generator_ColumnVarNameInTable="columnConfigModel_Id" msprop:Generator_ColumnPropNameInRow="ConfigModel_Id" msprop:Generator_ColumnPropNameInTable="ConfigModel_IdColumn" msprop:Generator_UserColumnName="ConfigModel_Id" type="xs:int" use="prohibited" />
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="IocContaion" msprop:Generator_TableClassName="IocContaionDataTable" msprop:Generator_TableVarName="tableIocContaion" msprop:Generator_TablePropName="IocContaion" msprop:Generator_RowDeletingName="IocContaionRowDeleting" msprop:Generator_RowChangingName="IocContaionRowChanging" msprop:Generator_RowEvHandlerName="IocContaionRowChangeEventHandler" msprop:Generator_RowDeletedName="IocContaionRowDeleted" msprop:Generator_UserTableName="IocContaion" msprop:Generator_RowChangedName="IocContaionRowChanged" msprop:Generator_RowEvArgName="IocContaionRowChangeEvent" msprop:Generator_RowClassName="IocContaionRow" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IoCType" msprop:Generator_ColumnVarNameInTable="columnIoCType" msprop:Generator_ColumnPropNameInRow="IoCType" msprop:Generator_ColumnPropNameInTable="IoCTypeColumn" msprop:Generator_UserColumnName="IoCType" type="xs:string" minOccurs="0" />
+              <xs:element name="AoP_CacheStrategy" msprop:Generator_ColumnVarNameInTable="columnAoP_CacheStrategy" msprop:Generator_ColumnPropNameInRow="AoP_CacheStrategy" msprop:Generator_ColumnPropNameInTable="AoP_CacheStrategyColumn" msprop:Generator_UserColumnName="AoP_CacheStrategy" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+            <xs:attribute name="ConfigModel_Id" msprop:Generator_ColumnVarNameInTable="columnConfigModel_Id" msprop:Generator_ColumnPropNameInRow="ConfigModel_Id" msprop:Generator_ColumnPropNameInTable="ConfigModel_IdColumn" msprop:Generator_UserColumnName="ConfigModel_Id" type="xs:int" use="prohibited" />
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="SSO" msprop:Generator_TableClassName="SSODataTable" msprop:Generator_TableVarName="tableSSO" msprop:Generator_TablePropName="SSO" msprop:Generator_RowDeletingName="SSORowDeleting" msprop:Generator_RowChangingName="SSORowChanging" msprop:Generator_RowEvHandlerName="SSORowChangeEventHandler" msprop:Generator_RowDeletedName="SSORowDeleted" msprop:Generator_UserTableName="SSO" msprop:Generator_RowChangedName="SSORowChanged" msprop:Generator_RowEvArgName="SSORowChangeEvent" msprop:Generator_RowClassName="SSORow" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Domain" msprop:Generator_ColumnVarNameInTable="columnDomain" msprop:Generator_ColumnPropNameInRow="Domain" msprop:Generator_ColumnPropNameInTable="DomainColumn" msprop:Generator_UserColumnName="Domain" type="xs:string" minOccurs="0" />
+              <xs:element name="TokenKey" msprop:Generator_ColumnVarNameInTable="columnTokenKey" msprop:Generator_ColumnPropNameInRow="TokenKey" msprop:Generator_ColumnPropNameInTable="TokenKeyColumn" msprop:Generator_UserColumnName="TokenKey" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+            <xs:attribute name="ConfigModel_Id" msprop:Generator_ColumnVarNameInTable="columnConfigModel_Id" msprop:Generator_ColumnPropNameInRow="ConfigModel_Id" msprop:Generator_ColumnPropNameInTable="ConfigModel_IdColumn" msprop:Generator_UserColumnName="ConfigModel_Id" type="xs:int" use="prohibited" />
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name="ConfigModel_Id" msdata:AutoIncrement="true" msprop:Generator_ColumnVarNameInTable="columnConfigModel_Id" msprop:Generator_ColumnPropNameInRow="ConfigModel_Id" msprop:Generator_ColumnPropNameInTable="ConfigModel_IdColumn" msprop:Generator_UserColumnName="ConfigModel_Id" type="xs:int" msdata:AllowDBNull="false" use="prohibited" />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="NewDataSet" msprop:Generator_UserDSName="NewDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element ref="ConfigModel" />
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="CatServers_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//CatServers" />
+      <xs:field xpath="@CatServers_Id" />
+    </xs:unique>
+    <xs:unique name="Cat_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//Cat" />
+      <xs:field xpath="@Cat_Id" />
+    </xs:unique>
+    <xs:unique name="Versions_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//Versions" />
+      <xs:field xpath="@Versions_Id" />
+    </xs:unique>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//ConfigModel" />
+      <xs:field xpath="@ConfigModel_Id" />
+    </xs:unique>
+    <xs:keyref name="ConfigModel_SSO" refer="Constraint1" msdata:IsNested="true" msprop:rel_Generator_UserChildTable="SSO" msprop:rel_Generator_ChildPropName="GetSSORows" msprop:rel_Generator_UserRelationName="ConfigModel_SSO" msprop:rel_Generator_ParentPropName="ConfigModelRow" msprop:rel_Generator_RelationVarName="relationConfigModel_SSO" msprop:rel_Generator_UserParentTable="ConfigModel">
+      <xs:selector xpath=".//SSO" />
+      <xs:field xpath="@ConfigModel_Id" />
+    </xs:keyref>
+    <xs:keyref name="ConfigModel_IocContaion" refer="Constraint1" msdata:IsNested="true" msprop:rel_Generator_UserChildTable="IocContaion" msprop:rel_Generator_ChildPropName="GetIocContaionRows" msprop:rel_Generator_UserRelationName="ConfigModel_IocContaion" msprop:rel_Generator_ParentPropName="ConfigModelRow" msprop:rel_Generator_RelationVarName="relationConfigModel_IocContaion" msprop:rel_Generator_UserParentTable="ConfigModel">
+      <xs:selector xpath=".//IocContaion" />
+      <xs:field xpath="@ConfigModel_Id" />
+    </xs:keyref>
+    <xs:keyref name="ConfigModel_Versions" refer="Constraint1" msdata:IsNested="true" msprop:rel_Generator_UserChildTable="Versions" msprop:rel_Generator_ChildPropName="GetVersionsRows" msprop:rel_Generator_UserRelationName="ConfigModel_Versions" msprop:rel_Generator_ParentPropName="ConfigModelRow" msprop:rel_Generator_RelationVarName="relationConfigModel_Versions" msprop:rel_Generator_UserParentTable="ConfigModel">
+      <xs:selector xpath=".//Versions" />
+      <xs:field xpath="@ConfigModel_Id" />
+    </xs:keyref>
+    <xs:keyref name="Versions_Version" refer="Versions_Constraint1" msdata:IsNested="true" msprop:rel_Generator_UserChildTable="Version" msprop:rel_Generator_ChildPropName="GetVersionRows" msprop:rel_Generator_UserRelationName="Versions_Version" msprop:rel_Generator_ParentPropName="VersionsRow" msprop:rel_Generator_RelationVarName="relationVersions_Version" msprop:rel_Generator_UserParentTable="Versions">
+      <xs:selector xpath=".//Version" />
+      <xs:field xpath="@Versions_Id" />
+    </xs:keyref>
+    <xs:keyref name="ConfigModel_Cat" refer="Constraint1" msdata:IsNested="true" msprop:rel_Generator_UserChildTable="Cat" msprop:rel_Generator_ChildPropName="GetCatRows" msprop:rel_Generator_UserRelationName="ConfigModel_Cat" msprop:rel_Generator_ParentPropName="ConfigModelRow" msprop:rel_Generator_RelationVarName="relationConfigModel_Cat" msprop:rel_Generator_UserParentTable="ConfigModel">
+      <xs:selector xpath=".//Cat" />
+      <xs:field xpath="@ConfigModel_Id" />
+    </xs:keyref>
+    <xs:keyref name="Cat_CatServers" refer="Cat_Constraint1" msdata:IsNested="true" msprop:rel_Generator_UserChildTable="CatServers" msprop:rel_Generator_ChildPropName="GetCatServersRows" msprop:rel_Generator_UserRelationName="Cat_CatServers" msprop:rel_Generator_ParentPropName="CatRow" msprop:rel_Generator_RelationVarName="relationCat_CatServers" msprop:rel_Generator_UserParentTable="Cat">
+      <xs:selector xpath=".//CatServers" />
+      <xs:field xpath="@Cat_Id" />
+    </xs:keyref>
+    <xs:keyref name="CatServers_CatServer" refer="CatServers_Constraint1" msdata:IsNested="true" msprop:rel_Generator_UserChildTable="CatServer" msprop:rel_Generator_ChildPropName="GetCatServerRows" msprop:rel_Generator_UserRelationName="CatServers_CatServer" msprop:rel_Generator_ParentPropName="CatServersRow" msprop:rel_Generator_RelationVarName="relationCatServers_CatServer" msprop:rel_Generator_UserParentTable="CatServers">
+      <xs:selector xpath=".//CatServer" />
+      <xs:field xpath="@CatServers_Id" />
+    </xs:keyref>
+    <xs:keyref name="Cat_CatDomain" refer="Cat_Constraint1" msdata:IsNested="true" msprop:rel_Generator_UserChildTable="CatDomain" msprop:rel_Generator_ChildPropName="GetCatDomainRows" msprop:rel_Generator_UserRelationName="Cat_CatDomain" msprop:rel_Generator_ParentPropName="CatRow" msprop:rel_Generator_RelationVarName="relationCat_CatDomain" msprop:rel_Generator_UserParentTable="Cat">
+      <xs:selector xpath=".//CatDomain" />
+      <xs:field xpath="@Cat_Id" />
+    </xs:keyref>
+    <xs:keyref name="ConfigModel_Socket" refer="Constraint1" msdata:IsNested="true" msprop:rel_Generator_UserChildTable="Socket" msprop:rel_Generator_ChildPropName="GetSocketRows" msprop:rel_Generator_UserRelationName="ConfigModel_Socket" msprop:rel_Generator_ParentPropName="ConfigModelRow" msprop:rel_Generator_RelationVarName="relationConfigModel_Socket" msprop:rel_Generator_UserParentTable="ConfigModel">
+      <xs:selector xpath=".//Socket" />
+      <xs:field xpath="@ConfigModel_Id" />
+    </xs:keyref>
+    <xs:keyref name="ConfigModel_DomainEvent" refer="Constraint1" msdata:IsNested="true" msprop:rel_Generator_UserChildTable="DomainEvent" msprop:rel_Generator_ChildPropName="GetDomainEventRows" msprop:rel_Generator_UserRelationName="ConfigModel_DomainEvent" msprop:rel_Generator_ParentPropName="ConfigModelRow" msprop:rel_Generator_RelationVarName="relationConfigModel_DomainEvent" msprop:rel_Generator_UserParentTable="ConfigModel">
+      <xs:selector xpath=".//DomainEvent" />
+      <xs:field xpath="@ConfigModel_Id" />
+    </xs:keyref>
+    <xs:keyref name="ConfigModel_Messaging" refer="Constraint1" msdata:IsNested="true" msprop:rel_Generator_UserChildTable="Messaging" msprop:rel_Generator_ChildPropName="GetMessagingRows" msprop:rel_Generator_UserRelationName="ConfigModel_Messaging" msprop:rel_Generator_ParentPropName="ConfigModelRow" msprop:rel_Generator_RelationVarName="relationConfigModel_Messaging" msprop:rel_Generator_UserParentTable="ConfigModel">
+      <xs:selector xpath=".//Messaging" />
+      <xs:field xpath="@ConfigModel_Id" />
+    </xs:keyref>
+    <xs:keyref name="ConfigModel_Redis" refer="Constraint1" msdata:IsNested="true" msprop:rel_Generator_UserChildTable="Redis" msprop:rel_Generator_ChildPropName="GetRedisRows" msprop:rel_Generator_UserRelationName="ConfigModel_Redis" msprop:rel_Generator_ParentPropName="ConfigModelRow" msprop:rel_Generator_RelationVarName="relationConfigModel_Redis" msprop:rel_Generator_UserParentTable="ConfigModel">
+      <xs:selector xpath=".//Redis" />
+      <xs:field xpath="@ConfigModel_Id" />
+    </xs:keyref>
+    <xs:keyref name="ConfigModel_MongoDB" refer="Constraint1" msdata:IsNested="true" msprop:rel_Generator_UserChildTable="MongoDB" msprop:rel_Generator_ChildPropName="GetMongoDBRows" msprop:rel_Generator_UserRelationName="ConfigModel_MongoDB" msprop:rel_Generator_ParentPropName="ConfigModelRow" msprop:rel_Generator_RelationVarName="relationConfigModel_MongoDB" msprop:rel_Generator_UserParentTable="ConfigModel">
+      <xs:selector xpath=".//MongoDB" />
+      <xs:field xpath="@ConfigModel_Id" />
+    </xs:keyref>
+    <xs:keyref name="ConfigModel_Pub_Sub" refer="Constraint1" msdata:IsNested="true" msprop:rel_Generator_UserChildTable="Pub_Sub" msprop:rel_Generator_ChildPropName="GetPub_SubRows" msprop:rel_Generator_UserRelationName="ConfigModel_Pub_Sub" msprop:rel_Generator_ParentPropName="ConfigModelRow" msprop:rel_Generator_RelationVarName="relationConfigModel_Pub_Sub" msprop:rel_Generator_UserParentTable="ConfigModel">
+      <xs:selector xpath=".//Pub_Sub" />
+      <xs:field xpath="@ConfigModel_Id" />
+    </xs:keyref>
+    <xs:keyref name="ConfigModel_Logger" refer="Constraint1" msdata:IsNested="true" msprop:rel_Generator_UserChildTable="Logger" msprop:rel_Generator_ChildPropName="GetLoggerRows" msprop:rel_Generator_UserRelationName="ConfigModel_Logger" msprop:rel_Generator_ParentPropName="ConfigModelRow" msprop:rel_Generator_RelationVarName="relationConfigModel_Logger" msprop:rel_Generator_UserParentTable="ConfigModel">
+      <xs:selector xpath=".//Logger" />
+      <xs:field xpath="@ConfigModel_Id" />
+    </xs:keyref>
+    <xs:keyref name="ConfigModel_Queue" refer="Constraint1" msdata:IsNested="true" msprop:rel_Generator_UserChildTable="Queue" msprop:rel_Generator_ChildPropName="GetQueueRows" msprop:rel_Generator_UserRelationName="ConfigModel_Queue" msprop:rel_Generator_ParentPropName="ConfigModelRow" msprop:rel_Generator_RelationVarName="relationConfigModel_Queue" msprop:rel_Generator_UserParentTable="ConfigModel">
+      <xs:selector xpath=".//Queue" />
+      <xs:field xpath="@ConfigModel_Id" />
+    </xs:keyref>
+    <xs:keyref name="ConfigModel_Caching" refer="Constraint1" msdata:IsNested="true" msprop:rel_Generator_UserChildTable="Caching" msprop:rel_Generator_ChildPropName="GetCachingRows" msprop:rel_Generator_UserRelationName="ConfigModel_Caching" msprop:rel_Generator_ParentPropName="ConfigModelRow" msprop:rel_Generator_RelationVarName="relationConfigModel_Caching" msprop:rel_Generator_UserParentTable="ConfigModel">
+      <xs:selector xpath=".//Caching" />
+      <xs:field xpath="@ConfigModel_Id" />
+    </xs:keyref>
+  </xs:element>
+</xs:schema>

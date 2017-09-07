@@ -1,0 +1,28 @@
+﻿syntax = "proto3";
+
+option java_package = "com.rainsoft.proto";
+option java_outer_classname = "CommonProto";
+option objc_class_prefix = "QYT";
+package com.rainsoft.proto;
+//返回的数据如果只有status 和 message 使用这个通用的response
+message CommonResponse {
+    int32 status = 1; //返回状态
+    string message = 2; //返回消息
+}
+
+// 每个request都需要的信息
+message CommonRequestInfo {
+    string phone_name = 1; //手机名称
+    string phone_system = 2; //手机操作系统 例如 iOS10.3
+    string phone_model = 3; //手机型号
+    string phone_producter = 4; //手机制造商
+    string app_version = 5; //app版本号
+    string phone_mac = 6; //手机mac地址
+    string phone_imei = 7; //手机imei
+    string phone_ip = 8; //手机ip地址
+    string user_id = 9; //用户id
+    string place_code = 10; //场所id
+    string app_code = 11; //app类型
+    string user_type = 12; //用户类型
+    sfixed64 timestamps = 13; //时间戳
+}
