@@ -74,11 +74,6 @@
     <None Include="Place.proto" />
     <None Include="README.md" />
     <None Include="route_guide.proto" />
-    <None Include="STAT_DOUBLE_SYSTEM_SERVIICE.proto" />
-    <None Include="STAT_INTERFACE_STAT.proto" />
-    <None Include="STAT_OFFLINE_SERVICE.proto" />
-    <None Include="STAT_SERVICE_DATA.proto" />
-    <None Include="TAB_PLATFORM_INFO.proto" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="protos\" />
